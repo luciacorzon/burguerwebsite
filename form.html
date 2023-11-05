@@ -24,8 +24,40 @@
         <input type="range" name="cooked" id="cooked" min="0" max="100">
         Well-Done
         <hr>
-        <label for="toppinngs">What toppings would you like?</label>
-        <input type="txt" name="toppings" id="toppings">
+        <label for="toppings">What toppings would you like?</label>
+        <br>
+        <input type="checkbox" name="toppings" id="lettuce" value="Lettuce">
+        <label for="lettuce">Lettuce</label>
+
+        <input type="checkbox" name="toppings" id="tomato" value="Tomato">
+        <label for="tomato">Tomato</label>
+
+        <input type="checkbox" name="toppings" id="onion" value="Onion">
+        <label for="onion">Onion</label>
+        <hr>
+        <label for="cheese">Would you like to add cheese?</label>
+        <br>
+        <input type="radio" name="cheese" id="yes" value="Yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" name="cheese" id="no" value="No">
+        <label for="no">No</label>
+        <hr>
+        <label for="bun">What type of bun would you like?</label>
+        <select name="bun" id="bun">
+            <option value="Sesame">Sesame</option>
+            <option value="Potato">Whole Wheat</option>
+            <option value="Pretzel">Brioche</option>
+          </select>
+        <hr>
+        <label for="sauce">What type of sauce would you like?</label>
+        <input type="txt" name="sauce" id="sauce">
+        <hr>
+        <label for="else">Anything else you want to add?</label>
+        <br>
+        <textarea name="else" id="else" rows="3" cols="40"></textarea>
+        <br>
+        <input type="submit" name="submit" id="submit">
     </form>
 </body>
 </html>
