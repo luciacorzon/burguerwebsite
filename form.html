@@ -15,13 +15,13 @@
         <label for="protein">What type of protein would you like?</label>
         <input type="text" name="protein" id="protein">
         <hr>
-        <label for="patties">How many patties would you like?</label>
-        <input type="txt" name="patty" id="patty">
+        <label for="patty">How many patties would you like?</label>
+        <input type="number" name="patty" id="patty" min="0" max="10">
         <hr>
         <label for="cooked">How do you want your patty cooked?</label>
         <br>
         Rare
-        <input type="range" name="cooked" id="cooked" min="0" max="100">
+        <input type="range" name="cooked" id="cooked" min="1" max="5" value="3">
         Well-Done
         <hr>
         <label for="toppings">What toppings would you like?</label>
